@@ -1,0 +1,29 @@
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+body{
+    background: url(bg_about.webp) no-repeat center center fixed;
+    /* background-attachment: scroll;
+    background-repeat: no-repeat ; */
+    background-size: cover;
+}
+
+.header{
+    margin-top: 50px;
+    animation: fade-in 1s;
+}
+
+.content{
+    animation: fade-in 1s;
+}
+
+.nav-item{
+    margin-right: 15px;
+}

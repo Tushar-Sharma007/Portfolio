@@ -1,0 +1,22 @@
+.add_trip{
+   width: 75%;
+}
+
+body{
+    background: url(bg_trip.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #114232;
+}
+.form-label{
+    color: #87A922;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    margin-top: 100px;
+}
+
